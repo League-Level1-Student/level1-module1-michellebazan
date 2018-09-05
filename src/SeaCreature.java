@@ -28,7 +28,7 @@ public class SeaCreature {
 
 	public void laugh() {
 		try {
-		    AudioClip sound = JApplet.newAudioClip(getClass().getResource(this.name + ".wav"));
+		    AudioClip sound = JApplet.newAudioClip(getClass().getResource("/home/leaguestudent/git/level1-module1-michellebazan/src/"+this.name + ".wav"));
 		    sound.play();
 			Thread.sleep(3400);
 		} catch (Exception ex) {
